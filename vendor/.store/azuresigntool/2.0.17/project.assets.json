@@ -1,0 +1,159 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {
+      "AzureSignTool/2.0.17": {
+        "type": "package"
+      }
+    },
+    ".NETCoreApp,Version=v2.1/any": {
+      "AzureSignTool/2.0.17": {
+        "type": "package",
+        "tools": {
+          "tools/netcoreapp2.1/any/AzureSign.Core.dll": {},
+          "tools/netcoreapp2.1/any/AzureSign.Core.pdb": {},
+          "tools/netcoreapp2.1/any/AzureSign.Core.xml": {},
+          "tools/netcoreapp2.1/any/AzureSignTool.deps.json": {},
+          "tools/netcoreapp2.1/any/AzureSignTool.dll": {},
+          "tools/netcoreapp2.1/any/AzureSignTool.pdb": {},
+          "tools/netcoreapp2.1/any/AzureSignTool.runtimeconfig.json": {},
+          "tools/netcoreapp2.1/any/DotnetToolSettings.xml": {},
+          "tools/netcoreapp2.1/any/Microsoft.Azure.KeyVault.Core.dll": {},
+          "tools/netcoreapp2.1/any/Microsoft.Azure.KeyVault.Cryptography.dll": {},
+          "tools/netcoreapp2.1/any/Microsoft.Azure.KeyVault.WebKey.dll": {},
+          "tools/netcoreapp2.1/any/Microsoft.Azure.KeyVault.dll": {},
+          "tools/netcoreapp2.1/any/Microsoft.Extensions.CommandLineUtils.dll": {},
+          "tools/netcoreapp2.1/any/Microsoft.Extensions.Configuration.Abstractions.dll": {},
+          "tools/netcoreapp2.1/any/Microsoft.Extensions.Configuration.Binder.dll": {},
+          "tools/netcoreapp2.1/any/Microsoft.Extensions.Configuration.dll": {},
+          "tools/netcoreapp2.1/any/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {},
+          "tools/netcoreapp2.1/any/Microsoft.Extensions.DependencyInjection.dll": {},
+          "tools/netcoreapp2.1/any/Microsoft.Extensions.Logging.Abstractions.dll": {},
+          "tools/netcoreapp2.1/any/Microsoft.Extensions.Logging.Configuration.dll": {},
+          "tools/netcoreapp2.1/any/Microsoft.Extensions.Logging.Console.dll": {},
+          "tools/netcoreapp2.1/any/Microsoft.Extensions.Logging.dll": {},
+          "tools/netcoreapp2.1/any/Microsoft.Extensions.Options.ConfigurationExtensions.dll": {},
+          "tools/netcoreapp2.1/any/Microsoft.Extensions.Options.dll": {},
+          "tools/netcoreapp2.1/any/Microsoft.Extensions.Primitives.dll": {},
+          "tools/netcoreapp2.1/any/Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll": {},
+          "tools/netcoreapp2.1/any/Microsoft.IdentityModel.Clients.ActiveDirectory.dll": {},
+          "tools/netcoreapp2.1/any/Microsoft.Rest.ClientRuntime.Azure.dll": {},
+          "tools/netcoreapp2.1/any/Microsoft.Rest.ClientRuntime.dll": {},
+          "tools/netcoreapp2.1/any/Newtonsoft.Json.dll": {},
+          "tools/netcoreapp2.1/any/RSAKeyVaultProvider.dll": {},
+          "tools/netcoreapp2.1/any/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AzureSignTool/2.0.17": {
+      "sha512": "FkcxtjObVmYOVYvpUcBNi/R3ccn0mr4lexby05JQa7SeDwaBWLyg4YraE1X8fqg4tMnszkYf7GMbN6DOVeM2VA==",
+      "type": "package",
+      "path": "azuresigntool/2.0.17",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "azuresigntool.2.0.17.nupkg.sha512",
+        "azuresigntool.nuspec",
+        "tools/netcoreapp2.1/any/AzureSign.Core.dll",
+        "tools/netcoreapp2.1/any/AzureSign.Core.pdb",
+        "tools/netcoreapp2.1/any/AzureSign.Core.xml",
+        "tools/netcoreapp2.1/any/AzureSignTool.deps.json",
+        "tools/netcoreapp2.1/any/AzureSignTool.dll",
+        "tools/netcoreapp2.1/any/AzureSignTool.pdb",
+        "tools/netcoreapp2.1/any/AzureSignTool.runtimeconfig.json",
+        "tools/netcoreapp2.1/any/DotnetToolSettings.xml",
+        "tools/netcoreapp2.1/any/Microsoft.Azure.KeyVault.Core.dll",
+        "tools/netcoreapp2.1/any/Microsoft.Azure.KeyVault.Cryptography.dll",
+        "tools/netcoreapp2.1/any/Microsoft.Azure.KeyVault.WebKey.dll",
+        "tools/netcoreapp2.1/any/Microsoft.Azure.KeyVault.dll",
+        "tools/netcoreapp2.1/any/Microsoft.Extensions.CommandLineUtils.dll",
+        "tools/netcoreapp2.1/any/Microsoft.Extensions.Configuration.Abstractions.dll",
+        "tools/netcoreapp2.1/any/Microsoft.Extensions.Configuration.Binder.dll",
+        "tools/netcoreapp2.1/any/Microsoft.Extensions.Configuration.dll",
+        "tools/netcoreapp2.1/any/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "tools/netcoreapp2.1/any/Microsoft.Extensions.DependencyInjection.dll",
+        "tools/netcoreapp2.1/any/Microsoft.Extensions.Logging.Abstractions.dll",
+        "tools/netcoreapp2.1/any/Microsoft.Extensions.Logging.Configuration.dll",
+        "tools/netcoreapp2.1/any/Microsoft.Extensions.Logging.Console.dll",
+        "tools/netcoreapp2.1/any/Microsoft.Extensions.Logging.dll",
+        "tools/netcoreapp2.1/any/Microsoft.Extensions.Options.ConfigurationExtensions.dll",
+        "tools/netcoreapp2.1/any/Microsoft.Extensions.Options.dll",
+        "tools/netcoreapp2.1/any/Microsoft.Extensions.Primitives.dll",
+        "tools/netcoreapp2.1/any/Microsoft.IdentityModel.Clients.ActiveDirectory.Platform.dll",
+        "tools/netcoreapp2.1/any/Microsoft.IdentityModel.Clients.ActiveDirectory.dll",
+        "tools/netcoreapp2.1/any/Microsoft.Rest.ClientRuntime.Azure.dll",
+        "tools/netcoreapp2.1/any/Microsoft.Rest.ClientRuntime.dll",
+        "tools/netcoreapp2.1/any/Newtonsoft.Json.dll",
+        "tools/netcoreapp2.1/any/RSAKeyVaultProvider.dll",
+        "tools/netcoreapp2.1/any/System.Runtime.CompilerServices.Unsafe.dll"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v2.1": [
+      "azuresigntool >= 2.0.17"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\heita\\.dotnet\\tools\\.store\\.stage\\wfzu2awf.lcm": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\heita\\AppData\\Local\\Temp\\xpbx1ukw.jle\\restore.csproj",
+      "projectName": "restore",
+      "projectPath": "C:\\Users\\heita\\AppData\\Local\\Temp\\xpbx1ukw.jle\\restore.csproj",
+      "packagesPath": "C:\\Users\\heita\\.dotnet\\tools\\.store\\.stage\\wfzu2awf.lcm",
+      "outputPath": "C:\\Users\\heita\\.dotnet\\tools\\.store\\.stage\\wfzu2awf.lcm\\",
+      "projectStyle": "DotnetToolReference",
+      "configFilePaths": [
+        "C:\\Users\\heita\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp2.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {},
+        "http://btlteamcity:7990/NuGetServer/nuget/": {},
+        "http://btlteamcity:8080/guestAuth/app/nuget/v1/FeedService.svc": {},
+        "http://btlteamcity:8080/httpAuth/app/nuget/v1/FeedService.svc": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp2.1": {
+        "dependencies": {
+          "azuresigntool": {
+            "target": "Package",
+            "version": "[2.0.17, )"
+          }
+        },
+        "imports": [
+          "net461"
+        ],
+        "assetTargetFallback": true,
+        "warn": true
+      }
+    },
+    "runtimes": {
+      "any": {
+        "#import": []
+      }
+    }
+  }
+}
