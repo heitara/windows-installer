@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>AzureSignTool</id>
+    <version>2.0.17</version>
+    <authors>Kevin Jones</authors>
+    <owners>Kevin Jones</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>https://github.com/vcsjones/AzureSignTool</projectUrl>
+    <description>Azure Sign Tool is similar to signtool in the Windows SDK, with the major difference being that it uses Azure Key Vault for performing the signing process. The usage is like signtool, except with a limited set of options for signing and options for authenticating to Azure Key Vault.</description>
+    <tags>azuresigntool azure keyvault codesign</tags>
+    <packageTypes>
+      <packageType name="DotnetTool" />
+    </packageTypes>
+    <repository type="git" url="https://github.com/vcsjones/AzureSignTool" commit="82ba1d6da64a307383633bf00adc398ee26afbea" />
+  </metadata>
+</package>
